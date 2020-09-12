@@ -13,6 +13,12 @@
 		AE01CAD6250BB4E800CA6002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAD4250BB4E800CA6002 /* Main.storyboard */; };
 		AE01CAD8250BB4EB00CA6002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAD7250BB4EB00CA6002 /* Assets.xcassets */; };
 		AE01CADB250BB4EB00CA6002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAD9250BB4EB00CA6002 /* LaunchScreen.storyboard */; };
+		AE01CAEB250CB2E100CA6002 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAE4250CB2E100CA6002 /* cannon.mp3 */; };
+		AE01CAEC250CB2E100CA6002 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAE5250CB2E100CA6002 /* elise.mp3 */; };
+		AE01CAED250CB2E100CA6002 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAE6250CB2E100CA6002 /* aria.mp3 */; };
+		AE01CAEE250CB2E100CA6002 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAE8250CB2E100CA6002 /* Beethoven.jpg */; };
+		AE01CAEF250CB2E100CA6002 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAE9250CB2E100CA6002 /* Pachelbel.jpg */; };
+		AE01CAF0250CB2E100CA6002 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE01CAEA250CB2E100CA6002 /* Bach.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AE01CAD7250BB4EB00CA6002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE01CADA250BB4EB00CA6002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE01CADC250BB4EB00CA6002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01CAE4250CB2E100CA6002 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		AE01CAE5250CB2E100CA6002 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		AE01CAE6250CB2E100CA6002 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		AE01CAE8250CB2E100CA6002 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		AE01CAE9250CB2E100CA6002 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		AE01CAEA250CB2E100CA6002 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		AE01CACD250BB4E800CA6002 /* TechPodL4S */ = {
 			isa = PBXGroup;
 			children = (
+				AE01CAE2250CB2E100CA6002 /* Resources */,
 				AE01CACE250BB4E800CA6002 /* AppDelegate.swift */,
 				AE01CAD0250BB4E800CA6002 /* SceneDelegate.swift */,
 				AE01CAD2250BB4E800CA6002 /* ViewController.swift */,
@@ -65,6 +78,35 @@
 				AE01CADC250BB4EB00CA6002 /* Info.plist */,
 			);
 			path = TechPodL4S;
+			sourceTree = "<group>";
+		};
+		AE01CAE2250CB2E100CA6002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE01CAE3250CB2E100CA6002 /* Songs */,
+				AE01CAE7250CB2E100CA6002 /* Images */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		AE01CAE3250CB2E100CA6002 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				AE01CAE4250CB2E100CA6002 /* cannon.mp3 */,
+				AE01CAE5250CB2E100CA6002 /* elise.mp3 */,
+				AE01CAE6250CB2E100CA6002 /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		AE01CAE7250CB2E100CA6002 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE01CAE8250CB2E100CA6002 /* Beethoven.jpg */,
+				AE01CAE9250CB2E100CA6002 /* Pachelbel.jpg */,
+				AE01CAEA250CB2E100CA6002 /* Bach.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +168,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE01CADB250BB4EB00CA6002 /* LaunchScreen.storyboard in Resources */,
+				AE01CAEB250CB2E100CA6002 /* cannon.mp3 in Resources */,
+				AE01CAF0250CB2E100CA6002 /* Bach.jpg in Resources */,
+				AE01CAEC250CB2E100CA6002 /* elise.mp3 in Resources */,
 				AE01CAD8250BB4EB00CA6002 /* Assets.xcassets in Resources */,
+				AE01CAEF250CB2E100CA6002 /* Pachelbel.jpg in Resources */,
 				AE01CAD6250BB4E800CA6002 /* Main.storyboard in Resources */,
+				AE01CAED250CB2E100CA6002 /* aria.mp3 in Resources */,
+				AE01CAEE250CB2E100CA6002 /* Beethoven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
